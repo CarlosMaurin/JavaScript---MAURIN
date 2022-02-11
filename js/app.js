@@ -99,20 +99,6 @@ if(densidadInicial <= 1050){
 }
 
 
-// function Lupulo(nombre, AA, gramos, onzas, tiempo, ibu, utiliza){
-//     this.nombre = nombre;
-//     this.AA = AA;
-//     this.gramos = gramos;
-//     this.onzas = onzas;
-//     this.tiempo = tiempo;
-//     this.ibu = ibu;
-//     this.utiliza = utiliza;
-//     this.calculoIbu = function(){
-//         this.ibu = ((this.onzas * this.tiempo * this.AA * factorCorreccion) / (galones*correccionDensidad))*1000;
-//     }
-// }
-
-
 class Lupulo{
     constructor (nombre, AA, gramos, onzas, tiempo, ibu, utiliza){
         this.nombre = nombre;
@@ -224,13 +210,6 @@ if((srm >= 1) && (srm <=3)){
 }else if(srm > 50){
     document.write("<img src='beer+50.PNG'/>");
 }
-
-
-
-
-
-
-
 
 
 
