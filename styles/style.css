@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCA311;
+    color: white;
+}
+
+
+
+/* ----------------NAVBAR---------------- */
+.navbar{
+    width: 100%;
+    background-color: #14213D;
+    z-index: 2;
+    position: fixed;
+}
+.navbar__logo img{
+    width: 3.8rem;
+    height: 3.3rem;
+}
+.navbar__toggler{
+    border: none;
+    background-color: transparent;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+/* -------------------MAIN INDEX--------------------------------------- */
+
+.main-index{
+    padding-top: 84px;
+}
+.main-index__bienvenidos{
+    font-size: 2.5rem;
+}
+.main-index__item-servicios img{
+    width: 7rem;
+    height: 7rem;
+}
+.main-index__btn{
+    background-color: #14213D;
+}
+.footer{
+    background-color: #14213D;
+    height: 4rem;
+}
+.footer__logo-redes{
+    width: 1.5rem;    
+}
+
+
+/* ------------------------------MAIN NUEVA RECETA--------------------------------- */
+
+.main-nueva{
+    padding-top: 7rem;
+    width: 100%;
+}
+.main-nueva__receta{
+    width: 85%;
+    border: black solid 0.1rem;
+    background-color: #CCC5B9;
+    border-radius: 0.5rem;
+}
+.main-nueva__granos{
+    width: 85%;
+    border: black solid 0.1rem;
+    background-color: #CCC5B9;
+    border-radius: 0.5rem;
+}
+.main-nueva__btn{
+    background-color: #14213D;
+}
+
+
+
+
+.main-indicadores{
+    width: 100%;
+}
+.main-indicadores__container{
+    width: 85%;
+    background-color: #14213D;
+    border-radius: 0.5rem;
+    border: solid black 0.1rem;
+}
+.main-indicadores__container__item{
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: solid black 0.1rem;
+}
+
+
+
+
+
+
